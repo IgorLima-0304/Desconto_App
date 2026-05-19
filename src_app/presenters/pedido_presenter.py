@@ -1,4 +1,4 @@
-from src.app.dtos.criar_pedido_output_dto import CriarPedidoOutputDTO
+from src_app.dtos.criar_pedido_output_dto import CriarPedidoOutputDTO
 
 class PedidoPresenter:
     def apresentar(self, output_dto: CriarPedidoOutputDTO) -> dict:
